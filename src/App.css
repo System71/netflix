@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 ::-webkit-scrollbar {
   width: 0;
   height: 0;
+}
+
+section {
+  margin-bottom: 50px;
 }
 
 .container {
@@ -12,11 +18,14 @@
 
 .logo {
   width: 100px;
+  margin-bottom: 25px;
 }
 
 h1 {
+  font-family: Roboto;
   color: white;
   font-size: 22px;
+  margin-bottom: 25px;
 }
 
 .carrousel {
