@@ -1,0 +1,30 @@
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding-left: 50px;
+}
+
+.logo {
+  width: 100px;
+}
+
+h1 {
+  color: white;
+  font-size: 22px;
+}
+
+.carrousel {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.item {
+  width: 220px;
+  height: 125px;
+}
